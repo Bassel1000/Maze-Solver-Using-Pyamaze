@@ -35,5 +35,7 @@ h(n) = estimated cost to goal
 The Uniform-cost search is an uninformed search algorithm that uses the lowest cumulative cost to find a path from the source to the destination.
 We use Uniform Cost Search to find the goal and the path including the cumulative cost to expand each node from the root node to the goal node.
 The path will be : S -> A-> D-> G
-![image](https://user-images.githubusercontent.com/94708469/209875241-96b3ac5c-d2ca-4a94-9402-33bd98c657e1.png)
+
+![WhatsApp Image 2022-12-28 at 23 51 24](https://user-images.githubusercontent.com/94708469/209875970-46f8a547-c33b-49ef-9870-3cbc79e86adc.jpg)
+
 
