@@ -1,5 +1,8 @@
 # Maze-Solver-Using-Pyamaze
-This is project is about solving random 10*10 mazes with 4 Types of Search
+This is project is about solving random 10*10 mazes with 4 Types of Search,notice you have to install pyamaze library first before using code (pip install pyamaze)
+![WhatsApp Image 2022-12-28 at 23 48 52](https://user-images.githubusercontent.com/94708469/209875795-924b42e7-a50f-48e5-9c95-34f1f569929c.jpg)
+
+
 ## 1-Breadth First Search 
 Breadth-first search (BFS) is a graph traversal algorithm that starts traversing the graph from the root node and explores all the neighboring nodes. Then, it selects the nearest node and explores all the unexplored nodes. 
 
