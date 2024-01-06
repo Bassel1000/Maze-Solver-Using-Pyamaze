@@ -1,12 +1,12 @@
 # Maze-Solver-Using-Pyamaze
-This is project is about solving random 10*10 mazes with 4 Types of Search,notice you have to install pyamaze library first before using code (pip install pyamaze)
+This is project is about solving random 10*10 mazes with 4 Types of Search,notice you have to install pyamaze library first before using code ```pip install pyamaze```
 
 
 ![WhatsApp Image 2022-12-28 at 23 48 52](https://user-images.githubusercontent.com/94708469/209875795-924b42e7-a50f-48e5-9c95-34f1f569929c.jpg)
 
 
 ## 1-Breadth First Search 
-Breadth-first search (BFS) is a graph traversal algorithm that starts traversing the graph from the root node and explores all the neighboring nodes. Then, it selects the nearest node and explores all the unexplored nodes. 
+**Breadth-first search (BFS)** is a graph traversal algorithm that starts traversing the graph from the root node and explores all the neighboring nodes. Then, it selects the nearest node and explores all the unexplored nodes. 
 
 The Breadth first search is likely similar to the Depth first search but on BFS the Frontier was Queue (FIFO) so when the element is popped from the Frontier it will be popped from the beginning of the list unlike in DFS the frontier pops from the last element of the list. It’s order is (E -> S -> N -> W)
 
@@ -16,7 +16,7 @@ The Breadth first search is likely similar to the Depth first search but on BFS 
 
 
 ## 2-Depth First Search
-The depth-first search (DFS) is an algorithm starts with the initial node of graph G and goes deeper until we find the goal node or the node with no children.
+**The depth-first search (DFS)** is an algorithm starts with the initial node of graph G and goes deeper until we find the goal node or the node with no children.
 
 DFS the Frontier was Stack (LIFO) so when the element is popped from the Frontier it will be popped from the end of the list unlike in BFS the frontier pops from the first  element of the list. it’s order is (W -> N -> S-> E)​.
 ![image](https://user-images.githubusercontent.com/94708469/209875167-aa90be59-3065-4ac7-9efc-4a50262971d9.png)
@@ -24,7 +24,7 @@ DFS the Frontier was Stack (LIFO) so when the element is popped from the Front
 
 
 ## 3-A-Star Search
-A* Search Algorithm is a simple and efficient search algorithm that can be used to find the optimal path between two nodes in a graph. It will be used for the shortest path finding.
+**A-Star Search Algorithm** is a simple and efficient search algorithm that can be used to find the optimal path between two nodes in a graph. It will be used for the shortest path finding.
 Search algorithm that expands node with lowest value of g(n) +  h(n).
 g(n) = cost to reach node
 h(n) = estimated cost to goal
@@ -32,7 +32,7 @@ h(n) = estimated cost to goal
 
 
 ## 4-Uniform Cost Search
-The Uniform-cost search is an uninformed search algorithm that uses the lowest cumulative cost to find a path from the source to the destination.
+**The Uniform-cost search** is an uninformed search algorithm that uses the lowest cumulative cost to find a path from the source to the destination.
 We use Uniform Cost Search to find the goal and the path including the cumulative cost to expand each node from the root node to the goal node.
 The path will be : S -> A-> D-> G
 
